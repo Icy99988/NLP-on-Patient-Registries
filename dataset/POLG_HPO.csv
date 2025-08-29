@@ -1,0 +1,299 @@
+id,name
+HP:0003535 , 3-Methylglutaconic aciduria
+HP:0032155 , Abdominal cramps
+HP:0003270 , Abdominal distention
+HP:0002027 , Abdominal pain
+HP:0025461 , Abnormal cell morphology
+HP:0031422 , Abnormal cerebellar cortex morphology
+HP:0002500 , Abnormal cerebral white matter morphology
+HP:0002921 , Abnormal cerebrospinal fluid morphology
+HP:0000479 , Abnormal retinal morphology
+HP:0012696 , Abnormal thalamic MRI signal intensity
+HP:0001751 , Abnormal vestibular function
+HP:0012079 , Abnormality of central motor conduction
+HP:0002071 , Abnormality of extrapyramidal motor function
+HP:0000496 , Abnormality of eye movement
+HP:0100022 , Abnormality of movement
+HP:0008049 , Abnormality of the extraocular muscles
+HP:0000478 , Abnormality of the eye
+HP:0011024 , Abnormality of the gastrointestinal tract
+HP:0001155 , Abnormality of the hand
+HP:0001392 , Abnormality of the liver
+HP:0012103 , Abnormality of the mitochondrion
+HP:0000504 , Abnormality of vision
+HP:0000649 , Abnormality of visual evoked potentials
+HP:0003438 , Absent Achilles reflex
+HP:0012072 , Aciduria
+HP:0002345 , Action tremor
+HP:0006554 , Acute hepatic failure
+HP:0003581 , Adult onset
+HP:0012533 , Allodynia
+HP:0012050 , Anasarca
+HP:0001903 , Anemia
+HP:0000739 , Anxiety
+HP:0001284 , Areflexia
+HP:0002522 , Areflexia of lower limbs
+HP:0011675 , Arrhythmia
+HP:0001541 , Ascites
+HP:0002446 , Astrocytosis
+HP:0001251 , Ataxia
+HP:0005110 , Atrial fibrillation
+HP:0025149 , Atrophic muscularis propria
+HP:0007344 , Atrophy/Degeneration involving the spinal cord
+HP:0000708 , Atypical behavior
+HP:0000006 , Autosomal dominant inheritance
+HP:0000007 , Autosomal recessive inheritance
+HP:0003487 , Babinski sign
+HP:0001488 , Bilateral ptosis
+HP:0008619 , Bilateral sensorineural hearing impairment
+HP:0002069 , Bilateral tonic-clonic seizure
+HP:0007334 , Bilateral tonic-clonic seizure with focal onset
+HP:0001408 , Bile duct proliferation
+HP:0007302 , Bipolar affective disorder
+HP:0000618 , Blindness
+HP:0002067 , Bradykinesia
+HP:0002136 , Broad-based gait
+HP:0004326 , Cachexia
+HP:0001638 , Cardiomyopathy
+HP:0000518 , Cataract
+HP:0003687 , Centrally nucleated skeletal muscle fibers
+HP:0001272 , Cerebellar atrophy
+HP:0002059 , Cerebral atrophy
+HP:0006964 , Cerebral cortical neurodegeneration
+HP:0025722 , Cerebral infarct
+HP:0100704 , Cerebral visual impairment
+HP:0011463 , Childhood onset
+HP:0001266 , Choreoathetosis
+HP:0001394 , Cirrhosis
+HP:0100543 , Cognitive impairment
+HP:0002396 , Cogwheel rigidity
+HP:0002253 , Colonic diverticula
+HP:0001259 , Coma
+HP:0002019 , Constipation
+HP:0003688 , Cytochrome C oxidase-negative muscle fibers
+HP:0100613 , Death in early adulthood
+HP:0011923 , Decreased activity of mitochondrial complex I
+HP:0008347 , Decreased activity of mitochondrial complex IV
+HP:0003431 , Decreased motor nerve conduction velocity
+HP:0003199 , Decreased muscle mass
+HP:0003387 , Decreased number of large peripheral myelinated nerve fibers
+HP:0003448 , Decreased sensory nerve conduction velocity
+HP:0000726 , Dementia
+HP:0007108 , Demyelinating peripheral neuropathy
+HP:0009141 , Depletion of mitochondrial DNA in muscle tissue
+HP:0000716 , Depression
+HP:0002376 , Developmental regression
+HP:0000819 , Diabetes mellitus
+HP:0002014 , Diarrhea
+HP:0003551 , Difficulty climbing stairs
+HP:0001644 , Dilated cardiomyopathy
+HP:0031987 , Diminished ability to concentrate
+HP:0000651 , Diplopia
+HP:0003693 , Distal amyotrophy
+HP:0002460 , Distal muscle weakness
+HP:0002936 , Distal sensory impairment
+HP:0001260 , Dysarthria
+HP:0007641 , Dyschromatopsia
+HP:0002075 , Dysdiadochokinesis
+HP:0001310 , Dysmetria
+HP:0002015 , Dysphagia
+HP:0001618 , Dysphonia
+HP:0001332 , Dystonia
+HP:0033720 , EEG with occipital epileptiform discharges
+HP:0003458 , EMG: myopathic abnormalities
+HP:0033842 , Early satiety
+HP:0025708 , Early young adult onset
+HP:0003388 , Easy fatigability
+HP:0000969 , Edema
+HP:0003236 , Elevated circulating creatine kinase concentration
+HP:0034277 , Elevated circulating deoxyuridine concentration
+HP:0002910 , Elevated circulating hepatic transaminase concentration
+HP:0034276 , Elevated circulating thymidine concentration
+HP:0000712 , Emotional lability
+HP:0001298 , Encephalopathy
+HP:0012847 , Epilepsia partialis continua
+HP:0000565 , Esotropia
+HP:0003219 , Ethylmalonic aciduria
+HP:0003546 , Exercise intolerance
+HP:0002875 , Exertional dyspnea
+HP:0000544 , External ophthalmoplegia
+HP:0001349 , Facial diplegia
+HP:0010628 , Facial palsy
+HP:0001508 , Failure to thrive
+HP:0012378 , Fatigue
+HP:0033685 , Fiber type grouping
+HP:0012692 , Focal T2 hyperintense thalamic lesion
+HP:0011166 , Focal myoclonic seizure
+HP:0007042 , Focal white matter lesions
+HP:0007359 , Focal-onset seizure
+HP:0009027 , Foot dorsiflexor weakness
+HP:0002359 , Frequent falls
+HP:0002066 , Gait ataxia
+HP:0001288 , Gait disturbance
+HP:0002020 , Gastroesophageal reflux
+HP:0002579 , Gastrointestinal dysmotility
+HP:0002578 , Gastroparesis
+HP:0000640 , Gaze-evoked nystagmus
+HP:0003700 , Generalized amyotrophy
+HP:0001290 , Generalized hypotonia
+HP:0003324 , Generalized muscle weakness
+HP:0032860 , Generalized non-convulsive status epilepticus without coma
+HP:0002171 , Gliosis
+HP:0001263 , Global developmental delay
+HP:0001952 , Glucose intolerance
+HP:0000853 , Goiter
+HP:0030237 , Hand muscle weakness
+HP:0002378 , Hand tremor
+HP:0000872 , Hashimoto thyroiditis
+HP:0002315 , Headache
+HP:0000365 , Hearing impairment
+HP:0012377 , Hemianopia
+HP:0001399 , Hepatic failure
+HP:0002240 , Hepatomegaly
+HP:0030143 , Hyperactive bowel sounds
+HP:0003348 , Hyperalaninemia
+HP:0000815 , Hypergonadotropic hypogonadism
+HP:0001611 , Hypernasal speech
+HP:0000836 , Hyperthyroidism
+HP:0001276 , Hypertonia
+HP:0033748 , Hypoesthesia
+HP:0000044 , Hypogonadotropic hypogonadism
+HP:0007103 , Hypointensity of cerebral white matter on MRI
+HP:0002375 , Hypokinesia
+HP:0000338 , Hypomimic face
+HP:0001265 , Hyporeflexia
+HP:0000821 , Hypothyroidism
+HP:0001252 , Hypotonia
+HP:0002791 , Hypoventilation
+HP:0006858 , Impaired distal proprioception
+HP:0006937 , Impaired distal tactile sensation
+HP:0006886 , Impaired distal vibration sensation
+HP:0002495 , Impaired vibratory sensation
+HP:0002922 , Increased CSF protein concentration
+HP:0002151 , Increased circulating lactate concentration
+HP:0003542 , Increased circulating pyruvate concentration
+HP:0003557 , Increased variability in muscle fiber diameter
+HP:0003593 , Infantile onset
+HP:0001249 , Intellectual disability
+HP:0002080 , Intention tremor
+HP:0002254 , Intermittent diarrhea
+HP:0031368 , Intestinal perforation
+HP:0004389 , Intestinal pseudo-obstruction
+HP:0000952 , Jaundice
+HP:0003621 , Juvenile onset
+HP:0001946 , Ketosis
+HP:0003128 , Lactic acidosis
+HP:0025710 , Late young adult onset
+HP:0001712 , Left ventricular hypertrophy
+HP:0001254 , Lethargy
+HP:0002352 , Leukoencephalopathy
+HP:0002070 , Limb ataxia
+HP:0002406 , Limb dysmetria
+HP:0003690 , Limb muscle weakness
+HP:0001403 , Macrovesicular hepatic steatosis
+HP:0002024 , Malabsorption
+HP:0004395 , Malnutrition
+HP:0000298 , Mask-like facies
+HP:0002354 , Memory impairment
+HP:0000252 , Microcephaly
+HP:0001413 , Micronodular cirrhosis
+HP:0001414 , Microvesicular hepatic steatosis
+HP:0003596 , Middle age onset
+HP:0002076 , Migraine
+HP:0008180 , Mildly elevated creatine kinase
+HP:0003737 , Mitochondrial myopathy
+HP:0001653 , Mitral regurgitation
+HP:0001634 , Mitral valve prolapse
+HP:0000182 , Movement abnormality of the tongue
+HP:0003689 , Multiple mitochondrial DNA deletions
+HP:0100295 , Muscle fiber atrophy
+HP:0003713 , Muscle fiber necrosis
+HP:0010546 , Muscle fibrillation
+HP:0003394 , Muscle spasm
+HP:0003552 , Muscle stiffness
+HP:0001324 , Muscle weakness
+HP:0003326 , Myalgia
+HP:0001336 , Myoclonus
+HP:0003198 , Myopathy
+HP:0002018 , Nausea
+HP:0003722 , Neck flexor weakness
+HP:0002529 , Neuronal loss in central nervous system
+HP:0000017 , Nocturia
+HP:0000639 , Nystagmus
+HP:0000597 , Ophthalmoparesis
+HP:0000602 , Ophthalmoplegia
+HP:0000648 , Optic atrophy
+HP:0100653 , Optic neuritis
+HP:0000939 , Osteoporosis
+HP:0001962 , Palpitations
+HP:0003470 , Paralysis
+HP:0002385 , Paraparesis
+HP:0003401 , Paresthesia
+HP:0001300 , Parkinsonism
+HP:0002548 , Parkinsonism with favorable response to dopaminergic medication
+HP:0003477 , Peripheral axonal neuropathy
+HP:0009830 , Peripheral neuropathy
+HP:0001761 , Pes cavus
+HP:0004396 , Poor appetite
+HP:0002403 , Positive Romberg sign
+HP:0008209 , Premature ovarian insufficiency
+HP:0000786 , Primary amenorrhea
+HP:0003676 , Progressive
+HP:0002073 , Progressive cerebellar ataxia
+HP:0002448 , Progressive encephalopathy
+HP:0000590 , Progressive external ophthalmoplegia
+HP:0007240 , Progressive gait ataxia
+HP:0003323 , Progressive muscle weakness
+HP:0002344 , Progressive neurologic deterioration
+HP:0002191 , Progressive spasticity
+HP:0003701 , Proximal muscle weakness
+HP:0000508 , Ptosis
+HP:0003731 , Quadriceps muscle weakness
+HP:0003200 , Ragged-red muscle fibers
+HP:0003678 , Rapidly progressive
+HP:0012664 , Reduced left ventricular ejection fraction
+HP:6000570 , Reduced tissue thymidine phosphorylase activity
+HP:0002093 , Respiratory insufficiency
+HP:0002747 , Respiratory insufficiency due to muscle weakness
+HP:0002322 , Resting tremor
+HP:0007814 , Retinal pigment epithelial mottling
+HP:0003201 , Rhabdomyolysis
+HP:0002063 , Rigidity
+HP:0012251 , ST segment elevation
+HP:0003691 , Scapular winging
+HP:0002650 , Scoliosis
+HP:0000869 , Secondary amenorrhea
+HP:0001250 , Seizure
+HP:0007141 , Sensorimotor neuropathy
+HP:0000407 , Sensorineural hearing impairment
+HP:0010871 , Sensory ataxia
+HP:0003434 , Sensory ataxic neuropathy
+HP:0003390 , Sensory axonal neuropathy
+HP:0003547 , Shoulder girdle muscle weakness
+HP:0002362 , Shuffling gait
+HP:0003202 , Skeletal muscle atrophy
+HP:0001533 , Slender build
+HP:0001350 , Slurred speech
+HP:0012850 , Small intestinal dysmotility
+HP:0002313 , Spastic paraparesis
+HP:0001257 , Spasticity
+HP:0002133 , Status epilepticus
+HP:0003376 , Steppage gait
+HP:0025403 , Stooped posture
+HP:0003548 , Subsarcolemmal accumulations of abnormally shaped mitochondria
+HP:0000029 , Testicular atrophy
+HP:0002273 , Tetraparesis
+HP:0007824 , Total ophthalmoplegia
+HP:0002779 , Tracheomalacia
+HP:0001337 , Tremor
+HP:0002078 , Truncal ataxia
+HP:0025331 , Upgaze palsy
+HP:0031358 , Vegetative state
+HP:0004308 , Ventricular arrhythmia
+HP:0000505 , Visual impairment
+HP:0000572 , Visual loss
+HP:0002013 , Vomiting
+HP:0001621 , Weak voice
+HP:0030319 , Weakness of facial musculature
+HP:0001824 , Weight loss
+HP:0011462 , Young adult onset

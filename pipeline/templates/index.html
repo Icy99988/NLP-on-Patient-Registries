@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pipeline</title>
+    <style>
+        html,body{
+            margin: 0;
+            padding: 0;
+        }
+
+        #main{
+            text-align: center;
+        }
+
+        #title{
+            margin: 30px auto;
+            text-align: center;
+            font-size: 2em;
+            font-weight: bold;
+        }
+
+        #des{
+            width: 700px;
+            margin: 30px auto 35px auto;
+            font-size: 0.8em;
+            color: #666;
+        }
+
+        #input{
+            display: block;
+            margin: 0px auto;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+        }
+
+        #button{
+            margin: 50px;
+            padding: 6px 20px 6px 20px;
+            border: none;
+            background-color: #DDD;
+            color: #333;
+            font-weight: bold;
+            border-radius: 5px;
+        }
+
+        #list{
+            width: 700px;
+            margin: 0px auto;
+        }
+
+        .row{
+            display: flex;
+            flex-direction: row;
+            padding: 5px 0;
+        }
+
+        .tit{
+            font-weight: bold;
+        }
+
+        .row .index{
+            display: inline-block;
+            flex: 5%;
+        }
+
+        .row .entity{
+            display: inline-block;
+            flex: 35%;
+        }
+
+        .row .hpo_id{
+            display: inline-block;
+            flex: 20%;
+        }
+
+        .row .name{
+            display: inline-block;
+            flex: 40%;
+        }
+
+        .row .more{
+            display: inline-block;
+            flex: 5%;
+            font-size: 0.8em;
+            padding: 2px 0;
+        }
+
+        #more_title{
+            font-size: 1.2em;
+            font-weight: bold;
+            margin: 30px 0;
+        }
+
+        .entity_main{
+            margin: 20px auto;
+            width: 80%;
+            font-weight: bold;
+            text-align: left;
+        }
+
+        .more_info_row{
+            margin: 30px auto;
+            width: 80%;
+            text-align: left;
+            font-size: 0.8em;
+        }
+
+        .more_info_row div{
+            margin: 5px 0;
+        }
+
+        span{
+            font-weight: bold;
+        }
+/*        body { font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; }
+        .message { background: #f0f0f0; padding: 10px; margin: 10px 0; border-radius: 5px; }*/
+    </style>
+</head>
+<body>
+    <div id="main">
+        <div id="title">HPO Term Extraction</div>
+        <div id="des">Input medical text paragraphs below. The model will identify relevant descriptions, extract HPO entities, and map them to standardized HPO terms.</div>
+        <form method="POST" action="/input">
+            <textarea id="input" name="text" placeholder="Please input" required rows="10" cols="100">{% for i in data['text'] %}{{ i }}&#10;{% endfor %}</textarea>
+            <button id="button" type="submit">Submit</button>
+        </form>
+
+        <div id="list">
+            <div class="row tit">
+                <div class="index">Index</div>
+                <div class="entity">Entity</div>
+                <div class="hpo_id">HPO ID</div>
+                <div class="name">HPO Name</div>
+<!--                <div class="more"></div>-->
+            </div>
+            {% for i in data['entity_list'] %}
+                <div class="row">
+                    <div class="index">{{ loop.index }}</div>
+                    <div class="entity">{{ i['entity'] }}</div>
+                    {% if i['hpo_list'] %}
+                    <div class="hpo_id">{{ i['hpo_list'][0]['id'] }}</div>
+                    <div class="name">{{ i['hpo_list'][0]['name'] }}</div>
+                    {% else %}
+                    <div class="hpo_id">--</div>
+                    <div class="name">--</div>
+                    {% endif %}
+<!--                    <div class="more">more</div>-->
+                </div>
+            {% endfor %}
+            <div class="more_info">
+                <div id="more_title">Additional Mapping Results</div>
+
+                {% for i in data['entity_list'] %}
+                    {% if i['hpo_list'] %}
+                    <div class="entity_main">{{ i['entity'] }}</div>
+                    {% for j in i['hpo_list'] %}
+                        <div class="more_info_row">
+                            <div class="hpo_id"><span>HPO ID: </span>{{ j['id'] }}</div>
+                            <div class="name"><span>HPO Name: </span>{{ j['name'] }}</div>
+                            <div class="description"><span>Description: </span>{{ j['description'] }}</div>
+                            <div class="synonym"><span>Synonym: </span>{{ j['synonym'] }}</div>
+                        </div>
+                    {% endfor %}
+                    {% endif %}
+                {% endfor %}
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
