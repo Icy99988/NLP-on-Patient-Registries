@@ -1,4 +1,4 @@
-### **NLP-on-Patient-Registries**
+# **NLP-on-Patient-Registries**
 
 This project is an NLP pipeline designed to convert medical free text into standardized HPO terms, including the implementation of each module model as well as the final integrated workflow.
 
