@@ -1,5 +1,7 @@
 \# NLP-on-Patient-Registries
 
+
+
 This project is an NLP pipeline designed to convert medical free text into standardized HPO terms, including the implementation of each module model as well as the final integrated workflow.
 
 
@@ -85,8 +87,4 @@ This project is an NLP pipeline designed to convert medical free text into stand
 
 
 To run the pipeline code, create a 'model' directory under the 'pipeline' folder. Then unzip 'model.zip', copy the 'checkpoint-728' folder from the 'NER' directory into 'pipeline/model', and rename it to 'NER'. Similarly, copy the 'checkpoint-53' folder from the 'SC' directory into 'pipeline/model', and rename it to 'SC'.
-
-
-
-
 
